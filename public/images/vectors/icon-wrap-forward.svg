@@ -1,4 +1,3 @@
 <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="m14.5 12.5 2.998-3.003-3-3" stroke="#1838DF" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M12.5 15.5h-5c-2 0-3-1-3-3s1-3 3-3h10" stroke="#1838DF" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.854 12.853a.5.5 0 1 1-.707-.707L16.29 10H7.5c-.923 0-1.523.23-1.896.603C5.23 10.976 5 11.577 5 12.5s.23 1.524.604 1.897c.373.373.973.603 1.896.603h5a.5.5 0 1 1 0 1h-5c-1.077 0-1.977-.269-2.604-.896C4.27 14.477 4 13.577 4 12.5c0-1.077.27-1.977.896-2.604C5.523 9.269 6.423 9 7.5 9h8.794l-2.149-2.149a.5.5 0 1 1 .707-.707l3 3A.5.5 0 0 1 18 9.5a.499.499 0 0 1-.187.39l-2.959 2.963Z" fill="#484900"/>
 </svg>

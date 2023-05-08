@@ -7,17 +7,17 @@
 }
 
 @font-face {
-  font-family: "RobotoRoman-Light";
-  src: url("../../public/fonts/RobotoRoman-Light.woff") format("woff"),
-    url("../../public/fonts/RobotoRoman-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "RobotoRoman-Medium";
   src: url("../../public/fonts/RobotoRoman-Medium.woff") format("woff"),
     url("../../public/fonts/RobotoRoman-Medium.woff2") format("woff2");
   font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoRoman-Light";
+  src: url("../../public/fonts/RobotoRoman-Light.woff") format("woff"),
+    url("../../public/fonts/RobotoRoman-Light.woff2") format("woff2");
+  font-weight: 300;
   font-display: swap;
 }
