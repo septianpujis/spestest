@@ -1,182 +1,216 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-orange"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Oleh{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex min-h-screen flex-col items-center overflow-hidden">
+      <nav className="bg-primary-p-100 flex flex-wrap w-full py-2 px-20 justify-between">
+        <div className="text-primary-p-500 font-bold text-desktop-bodytext my-auto flex flex-nowrap">
+          <Image
+            src={"/images/vectors/icon-zap.svg"}
+            unoptimized
+            height={13}
+            width={13}
+            alt="icon"
+            className="mr-[10px]"
+          />
+          STORAGE GPT
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 font-semibold text-heading3`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 font-semibold text-heading3`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <div className="flex text-primary-p-400">
+          <ul className="flex flex-wrap gap-base-space-7 content-center">
+            <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
+              Nav Item
+            </li>
+            <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
+              Nav Item
+            </li>
+            <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
+              Nav Item
+            </li>
+            <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
+              Nav Item
+            </li>
+            <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
+              Nav Item
+            </li>
+          </ul>
+          <button className="ml-base-space-7 bg-primary-p-300 text-primary-p-500 p-base-space-2 flex flex-nowrap">
+            <Image
+              src={"/images/vectors/icon-zap.svg"}
+              unoptimized
+              height={24}
+              width={24}
+              className="mr-[10px] w-6 h-6"
+              alt="icon"
+            />
+            Contact Us
+          </button>
+        </div>
+      </nav>
+      <section className="bg-gradient-1 w-full text-neutral-n-000">
+        <div className="container mx-auto flex flex-wrap py-16">
+          <div className="w-1/2 my-auto flex flex-col pr-base-space-15">
+            <h1 className="text-desktop-h-1 leading-desktop-h-1 font-desktop-h-1 mb-base-space-4">
+              Automate your workflow <br />
+              Quadruple your team Productivity
+            </h1>
+            <p className="text-desktop-subtitle leading-desktop-subtitle font-desktop-subtitle mb-base-space-11">
+              We offer tailored mobile SAP software that optimizes operations,
+              streamlines workflows, and maximizes profitability for storage
+              facility businesses.
+            </p>
+            <button className="bg-primary-p-300 text-primary-p-500 p-base-space-2 flex flex-nowrap w-fit font-desktop-subtitle">
+              <Image
+                src={"/images/vectors/icon-zap.svg"}
+                unoptimized
+                height={24}
+                width={24}
+                className="mr-[10px] w-6 h-6"
+                alt="icon"
+              />
+              Start Now
+            </button>
+          </div>
+          <div className="w-1/2">
+            <Image
+              src={"/images/specify/bitmap-02.png"}
+              width={612}
+              height={409}
+              unoptimized
+              alt="Hero Image"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="bg-white w-full text-neutral-n-1000">
+        <div className="container flex flex-wrap mx-auto py-16">
+          <div className="flex flex-col items-center mx-auto mb-[86px]">
+            <h2 className="font-desktop-h-2 text-desktop-h-2 leading-desktop-h-2 mb-6">
+              Key Benefits:
+            </h2>
+            <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 w-[870px] text-center mx-auto">
+              Our expertise lies in developing customized mobile SAP solutions
+              that seamlessly integrate with your existing SAP systems
+            </h4>
+          </div>
+          <div className="grid w-full grid-cols-3  gap-x-[77px] gap-y-[86px] pr-[10rem]">
+            <div className="flex flex-col max-w-[275px]">
+              <Image
+                src={"/images/vectors/icon-write.svg"}
+                unoptimized
+                width={24}
+                height={24}
+                alt="icon"
+                className="mb-4"
+              />
+              <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                Tailored Solutions:
+              </h4>
+              <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                We offer tailored mobile SAP software that optimizes operations,
+                streamlines workflows, and maximizes profitability for storage
+                facility businesses.
+              </p>
+            </div>
+            <div className="flex flex-col max-w-[275px]">
+              <Image
+                src={"/images/vectors/icon-zap.svg"}
+                unoptimized
+                width={24}
+                height={24}
+                alt="icon"
+                className="mb-4"
+              />
+              <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                Enhanced Efficiency:
+              </h4>
+              <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                Streamline workflows, optimize resources, reduce costs, and
+                improve productivity with our mobile SAP software.
+              </p>
+            </div>
+            <div className="flex flex-col max-w-[275px]">
+              <Image
+                src={"/images/vectors/icon-zap.svg"}
+                unoptimized
+                width={24}
+                height={24}
+                alt="icon"
+                className="mb-4"
+              />
+              <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                Seamless Integration
+              </h4>
+              <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                Streamline workflows, optimize resources, reduce costs, and
+                improve productivity with our mobile SAP software.
+              </p>
+            </div>
+            <div className="flex flex-col max-w-[275px]">
+              <Image
+                src={"/images/vectors/icon-write.svg"}
+                unoptimized
+                width={24}
+                height={24}
+                alt="icon"
+                className="mb-4"
+              />
+              <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                Tailored Solutions:
+              </h4>
+              <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                Barcode scanning, RFID tracking, real-time reporting, and
+                analytics are among the comprehensive features we offer to
+                optimize your inventory management, order fulfillment, and
+                shipping processes.
+              </p>
+            </div>
+            <div className="flex flex-col max-w-[275px]">
+              <Image
+                src={"/images/vectors/icon-zap.svg"}
+                unoptimized
+                width={24}
+                height={24}
+                alt="icon"
+                className="mb-4"
+              />
+              <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                Dedicated Support:
+              </h4>
+              <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                Our dedicated support team is always ready to assist you,
+                providing technical support, training, and guidance for
+                maximizing the potential of our mobile SAP solutions
+              </p>
+            </div>
+            <div className="max-w-[275px] relative">
+              <Image
+                unoptimized
+                alt="image"
+                src={"images/specify/bitmap-04.png"}
+                className="w-[1051px] h-[703px] absolute max-w-none "
+                width={1051}
+                height={703}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-neutral-n-1000 w-full text-neutral-n-000">
+        <div className="container flex flex-wrap mx-auto py-base-space-13">
+          <div className="w-7/12 pr-[115px]">
+            <h1 className="text-desktop-h-1 leading-desktop-h-1 font-desktop-h-1 mb-base-space-9">
+              Transform your storage facility operations with <br /> our
+              state-of-the-art mobile SAP solutions.
+            </h1>
+            <p className="text-desktop-bodytext leading-desktop-bodytext font-desktop-bodytext mb-base-space-15">
+              Contact us today to schedule a consultation and discover how our
+              software can revolutionize your business, enabling increased
+              efficiency, profitability, and customer satisfaction.
+            </p>
+          </div>
+          <div className="relative w-5/12"></div>
+        </div>
+      </section>
     </main>
-  )
+  );
 }

@@ -1,0 +1,158 @@
+{
+  "repository": "@commsult/commsult-elements",
+  "personalAccessToken": "27b77d5aba551299410877a366f29230faa49f547f7529c55212f33a7835e939",
+  "rules": [
+    {
+      "name": "Design Tokens / Theme",
+      "path": "./src/styles/theme.js",
+      "filter": {
+        "types": [
+          "color",
+          "textStyle",
+          "font",
+          "measurement",
+          "gradient"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "to-tailwind",
+          "options": {
+            "formatName": "kebabCase",
+            "formatConfig": {
+              "objectName": "extend",
+              "module": "commonjs"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / CSS font imports",
+      "path": "./src/styles/fonts.css",
+      "filter": {
+        "types": [
+          "font"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "to-css-font-import",
+          "options": {
+            "formats": [
+              "woff",
+              "woff2"
+            ],
+            "fontsPath": "../../public/fonts"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Export fonts",
+      "path": "./public/fonts",
+      "filter": {
+        "types": [
+          "font"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "convert-font",
+          "options": {
+            "formats": [
+              "woff",
+              "woff2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Vector",
+      "path": "./public/images/vectors",
+      "filter": {
+        "types": [
+          "vector"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "kebabcasify"
+        },
+        {
+          "name": "svgo",
+          "options": {
+            "svgo": {
+              "js2svg": {
+                "pretty": true
+              },
+              "plugins": [
+                {
+                  "removeDimensions": true
+                },
+                {
+                  "removeAttrs": {
+                    "attrs": "*:(fill|stroke)"
+                  }
+                },
+                {
+                  "addAttributesToSVGElement": {
+                    "attributes": [
+                      "width=\"1em\"",
+                      "height=\"1em\"",
+                      "focusable=\"false\""
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Bitmap",
+      "path": "./public/images/specify",
+      "filter": {
+        "types": [
+          "bitmap"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "kebabcasify"
+        },
+        {
+          "name": "svgo",
+          "options": {
+            "svgo": {
+              "js2svg": {
+                "pretty": true
+              },
+              "plugins": [
+                {
+                  "removeDimensions": true
+                },
+                {
+                  "removeAttrs": {
+                    "attrs": "*:(fill|stroke)"
+                  }
+                },
+                {
+                  "addAttributesToSVGElement": {
+                    "attributes": [
+                      "width=\"1em\"",
+                      "height=\"1em\"",
+                      "focusable=\"false\""
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
