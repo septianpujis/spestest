@@ -1,24 +1,23 @@
 {
   "repository": "@commsult/commsult-elements",
-  "personalAccessToken": "27b77d5aba551299410877a366f29230faa49f547f7529c55212f33a7835e939",
+  "head": "specify",
+  "base": "main",
   "rules": [
     {
       "name": "Design Tokens / Theme",
-      "path": "./src/styles/theme.js",
+      "path": "./output/theme.js",
       "filter": {
         "types": [
           "color",
           "textStyle",
-          "font",
-          "measurement",
-          "gradient"
+          "font"
         ]
       },
       "parsers": [
         {
           "name": "to-tailwind",
           "options": {
-            "formatName": "kebabCase",
+            "formatName": "camelCase",
             "formatConfig": {
               "objectName": "extend",
               "module": "commonjs"
@@ -29,7 +28,7 @@
     },
     {
       "name": "Design Tokens / CSS font imports",
-      "path": "./src/styles/fonts.css",
+      "path": "./output/styles/fonts.css",
       "filter": {
         "types": [
           "font"
@@ -43,14 +42,14 @@
               "woff",
               "woff2"
             ],
-            "fontsPath": "../../public/fonts"
+            "fontsPath": "../assets/fonts"
           }
         }
       ]
     },
     {
       "name": "Design Tokens / Export fonts",
-      "path": "./public/fonts",
+      "path": "./output/assets/fonts",
       "filter": {
         "types": [
           "font"
@@ -70,36 +69,10 @@
     },
     {
       "name": "Design Tokens / Vector",
-      "path": "./public/images/vectors",
+      "path": "./output/assets/vectors",
       "filter": {
         "types": [
           "vector"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "kebabcasify"
-        },
-        {
-          "name": "svgo",
-          "options": {
-            "svgo": {
-              "js2svg": {
-                "pretty": true
-              },
-              "plugins": [
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Bitmap",
-      "path": "./public/images/specify",
-      "filter": {
-        "types": [
-          "bitmap"
         ]
       },
       "parsers": [
