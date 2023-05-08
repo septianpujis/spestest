@@ -5,19 +5,21 @@
   "rules": [
     {
       "name": "Design Tokens / Theme",
-      "path": "./output/theme.js",
+      "path": "./src/styles/theme.js",
       "filter": {
         "types": [
           "color",
           "textStyle",
-          "font"
+          "font",
+          "measurement",
+          "gradient"
         ]
       },
       "parsers": [
         {
           "name": "to-tailwind",
           "options": {
-            "formatName": "camelCase",
+            "formatName": "kebabCase",
             "formatConfig": {
               "objectName": "extend",
               "module": "commonjs"
@@ -28,7 +30,7 @@
     },
     {
       "name": "Design Tokens / CSS font imports",
-      "path": "./output/styles/fonts.css",
+      "path": "./src/styles/fonts.css",
       "filter": {
         "types": [
           "font"
@@ -42,14 +44,14 @@
               "woff",
               "woff2"
             ],
-            "fontsPath": "../assets/fonts"
+            "fontsPath": "../../public/fonts"
           }
         }
       ]
     },
     {
       "name": "Design Tokens / Export fonts",
-      "path": "./output/assets/fonts",
+      "path": "./public/fonts",
       "filter": {
         "types": [
           "font"
@@ -69,7 +71,7 @@
     },
     {
       "name": "Design Tokens / Vector",
-      "path": "./output/assets/vectors",
+      "path": "./public/images/vectors",
       "filter": {
         "types": [
           "vector"
@@ -87,23 +89,32 @@
                 "pretty": true
               },
               "plugins": [
-                {
-                  "removeDimensions": true
-                },
-                {
-                  "removeAttrs": {
-                    "attrs": "*:(fill|stroke)"
-                  }
-                },
-                {
-                  "addAttributesToSVGElement": {
-                    "attributes": [
-                      "width=\"1em\"",
-                      "height=\"1em\"",
-                      "focusable=\"false\""
-                    ]
-                  }
-                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Bitmap",
+      "path": "./public/images/specify",
+      "filter": {
+        "types": [
+          "bitmap"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "kebabcasify"
+        },
+        {
+          "name": "svgo",
+          "options": {
+            "svgo": {
+              "js2svg": {
+                "pretty": true
+              },
+              "plugins": [
               ]
             }
           }
