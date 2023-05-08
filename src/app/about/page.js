@@ -73,7 +73,7 @@ export default function About() {
                 <Image
                   alt="image"
                   unoptimized
-                  src={"/images/specify/bitmap-03.png"}
+                  src={"/images/specify/bitmap-07.png"}
                   width={670}
                   height={448}
                 />
