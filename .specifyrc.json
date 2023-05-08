@@ -88,23 +88,6 @@
                 "pretty": true
               },
               "plugins": [
-                {
-                  "removeDimensions": true
-                },
-                {
-                  "removeAttrs": {
-                    "attrs": "*:(fill|stroke)"
-                  }
-                },
-                {
-                  "addAttributesToSVGElement": {
-                    "attributes": [
-                      "width=\"1em\"",
-                      "height=\"1em\"",
-                      "focusable=\"false\""
-                    ]
-                  }
-                }
               ]
             }
           }

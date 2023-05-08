@@ -12,10 +12,10 @@ export default function Home() {
           <Image
             src={"/images/vectors/icon-zap.svg"}
             unoptimized
-            height={13}
-            width={13}
+            height={24}
+            width={24}
             alt="icon"
-            className="mr-[10px]"
+            className="mr-[10px] w-[24px] h-[24px]"
           />
           STORAGE GPT
         </Link>
@@ -71,7 +71,7 @@ export default function Home() {
                 unoptimized
                 height={24}
                 width={24}
-                className="mr-[10px] w-6 h-6"
+                className="mr-[10px] w-6 h-6 "
                 alt="icon"
               />
               Start Now
