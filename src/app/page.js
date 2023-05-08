@@ -1,10 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center overflow-hidden">
       <nav className="bg-primary-p-100 flex flex-wrap w-full py-2 px-20 justify-between">
-        <div className="text-primary-p-500 font-bold text-desktop-bodytext my-auto flex flex-nowrap">
+        <Link
+          href="/"
+          className="text-primary-p-500 font-bold text-desktop-bodytext my-auto flex flex-nowrap"
+        >
           <Image
             src={"/images/vectors/icon-zap.svg"}
             unoptimized
@@ -14,7 +18,7 @@ export default function Home() {
             className="mr-[10px]"
           />
           STORAGE GPT
-        </div>
+        </Link>
         <div className="flex text-primary-p-400">
           <ul className="flex flex-wrap gap-base-space-7 content-center">
             <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
@@ -33,7 +37,10 @@ export default function Home() {
               Nav Item
             </li>
           </ul>
-          <button className="ml-base-space-7 bg-primary-p-300 text-primary-p-500 p-base-space-2 flex flex-nowrap">
+          <Link
+            href="/about"
+            className="ml-base-space-7 bg-primary-p-300 text-primary-p-500 p-base-space-2 flex flex-nowrap"
+          >
             <Image
               src={"/images/vectors/icon-zap.svg"}
               unoptimized
@@ -43,7 +50,7 @@ export default function Home() {
               alt="icon"
             />
             Contact Us
-          </button>
+          </Link>
         </div>
       </nav>
       <section className="bg-gradient-1 w-full text-neutral-n-000">
