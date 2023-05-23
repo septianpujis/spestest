@@ -6,7 +6,7 @@ import { useState } from "react";
 import dittoData from "../../ditto";
 
 export default function Home() {
-  const option = ["base", "en"];
+  const option = ["base", "de"];
   const [variant, setVariant] = useState(option[0]);
 
   return (
