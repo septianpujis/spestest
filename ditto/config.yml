@@ -5,4 +5,5 @@ sources:
     - name: 1 - Website commsulta
       id: 64647e45565c1bcf8d880158
 variants: true
-format: flat
+format: structured
+richText: true

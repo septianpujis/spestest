@@ -4,7 +4,7 @@ module.exports = {
     "de": require('./1---website-commsulta__de.json')
   },
   "ditto_component_library": {
-    "base": require('./1---website-commsulta__base.json'),
-    "de": require('./1---website-commsulta__de.json')
+    "base": require('./ditto-component-library__base.json'),
+    "de": require('./ditto-component-library__de.json')
   }
 }

@@ -1,16 +1,20 @@
 "use client";
-import DittoProvider, { Ditto } from "ditto-react";
+import { DittoProvider, Ditto } from "ditto-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import dittoData from "../../ditto";
+import dittoData from "../../ditto/index.js";
 
 export default function Home() {
   const option = ["base", "de"];
   const [variant, setVariant] = useState(option[0]);
 
   return (
-    <DittoProvider source={dittoData} variant={variant}>
+    <DittoProvider
+      projectId={"project_64647e45565c1bcf8d880158"}
+      source={dittoData}
+      variant={variant}
+    >
       <main className="flex min-h-screen flex-col items-center overflow-hidden">
         <nav className="bg-primary-p-100 flex flex-wrap w-full py-2 px-20 justify-between">
           <Link
@@ -25,24 +29,34 @@ export default function Home() {
               alt="icon"
               className="mr-[10px] w-[24px] h-[24px]"
             />
-            <Ditto componentId="wireframe---1-commsulta"></Ditto>
+            <Ditto textId="wireframe---1-commsulta"></Ditto>
           </Link>
           <div className="flex text-black">
             <ul className="flex flex-wrap gap-base-space-7 content-center">
               <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
-                <Ditto componentId="wireframe---1-nav-item"></Ditto>
+                <Ditto textId="wireframe---1-nav-item"></Ditto>
               </li>
               <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
-                <Ditto componentId="wireframe---1-nav-item-1"></Ditto>
+                <Ditto textId="wireframe---1-nav-item-1"></Ditto>
               </li>
               <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
-                <Ditto componentId="wireframe---1-nav-item-2"></Ditto>
+                <Ditto textId="wireframe---1-nav-item-2"></Ditto>
               </li>
-              <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
-                <Ditto componentId="wireframe---1-nav-item-3"></Ditto>
+              <li
+                className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100"
+                onClick={() => {
+                  setVariant(option[0]);
+                }}
+              >
+                <Ditto textId="wireframe---1-nav-item-3"></Ditto>
               </li>
-              <li className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100">
-                <Ditto componentId="wireframe---1-nav-item-4"></Ditto>
+              <li
+                className="p-base-space-2 cursor-pointer hover:mix-blend-multiply bg-primary-p-100"
+                onClick={() => {
+                  setVariant(option[1]);
+                }}
+              >
+                <Ditto textId="wireframe---1-nav-item-4"></Ditto>
               </li>
             </ul>
             <Link
@@ -57,7 +71,7 @@ export default function Home() {
                 className="mr-[10px] w-6 h-6"
                 alt="icon"
               />
-              <Ditto componentId="wireframe---1-start-now"></Ditto>
+              <Ditto textId="wireframe---1-start-now-1"></Ditto>
             </Link>
           </div>
         </nav>
@@ -65,7 +79,7 @@ export default function Home() {
           <div className="container mx-auto flex flex-wrap py-16">
             <div className="w-1/2 my-auto flex flex-col pr-base-space-15">
               <h1 className="text-desktop-h-1 leading-desktop-h-1 font-desktop-h-1 mb-base-space-4">
-                <Ditto componentId="wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil-"></Ditto>
+                <Ditto textId="wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil" />
               </h1>
               <p className="text-desktop-subtitle leading-desktop-subtitle font-desktop-subtitle mb-base-space-11">
                 We offer tailored mobile SAP software that optimizes operations,

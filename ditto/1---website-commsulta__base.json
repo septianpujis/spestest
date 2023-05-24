@@ -1,28 +1,359 @@
 {
-  "wireframe---1-commsulta": "Commsult",
-  "wireframe---1-nav-item": "About Use",
-  "wireframe---1-nav-item-1": "Solution",
-  "wireframe---1-nav-item-2": "Pricing",
-  "wireframe---1-nav-item-3": "News",
-  "wireframe---1-nav-item-4": "Service",
-  "wireframe---1-start-now": "Start Now",
-  "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil-": "Automate your workflows\nQuadruple your team Productiviies",
-  "wireframe---1-aasdasdasdasdasdasdasd": "We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.",
-  "wireframe---1-start-now-1": "Start Now",
-  "wireframe---1-key-strongbenefitsstrong": "Let us help you solve your mobile SAP challenges.",
-  "wireframe---1-kami-sangat-ahli-membangun-sistem-keren": "Our expertise lies in developing customized mobile SAP solutions that seamlessly integrate with your existing SAP systems",
-  "wireframe---1-tailored-solutions": "Tailored Solutions:",
-  "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt": "We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.",
-  "wireframe---1-enhanced-efficiency": "Enhanced Efficiency:",
-  "wireframe---1-streamline-workflows-optimize-resources-reduce": "Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.",
-  "wireframe---1-seamless-integration": "Seamless Integration",
-  "wireframe---1-streamline-workflows-optimize-resources-reduce-1": "Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.",
-  "wireframe---1-tailored-solutions-1": "Tailored Solutions:",
-  "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor": "Barcode scanning, RFID tracking, real-time reporting, and analytics are among the comprehensive features we offer to optimize your inventory management, order fulfillment, and shipping processes.",
-  "wireframe---1-dedicated-support": "Dedicated Support:",
-  "wireframe---1-our-dedicated-support-team-is-always-ready-to-": "Our dedicated support team is always ready to assist you, providing technical support, training, and guidance for maximizing the potential of our mobile SAP solutions",
-  "wireframe---1-transform-your-storage-facility-operations-wit": "Transform your storage facility operations with our state-of-the-art mobile SAP solutions.",
-  "wireframe---1-contact-us-today-to-schedule-a-consultation-an": "Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.",
-  "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1": "Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.",
-  "home-commsult": "Commsult"
+  "wireframe---1-commsulta": {
+    "text": "Commsult",
+    "rich_text": "<p>Commsult</p>",
+    "api_id": "wireframe---1-commsulta"
+  },
+  "wireframe---1-nav-item": {
+    "text": "<1>About Us</1>",
+    "rich_text": "<p>&lt;1&gt;About Us&lt;/1&gt;</p>",
+    "api_id": "wireframe---1-nav-item",
+    "variants": {
+      "de": {
+        "text": "über uns",
+        "rich_text": "<p>über uns</p>"
+      }
+    }
+  },
+  "wireframe---1-nav-item-1": {
+    "text": "Solution",
+    "rich_text": "<p>Solution</p>",
+    "api_id": "wireframe---1-nav-item-1",
+    "variants": {
+      "de": {
+        "text": "Lösung",
+        "rich_text": "<p>Lösung</p>"
+      }
+    }
+  },
+  "wireframe---1-nav-item-2": {
+    "text": "Pricing",
+    "rich_text": "<p>Pricing</p>",
+    "api_id": "wireframe---1-nav-item-2",
+    "variants": {
+      "de": {
+        "text": "Preisgestaltung",
+        "rich_text": "<p>Preisgestaltung</p>"
+      }
+    }
+  },
+  "wireframe---1-nav-item-3": {
+    "text": "News",
+    "rich_text": "<p>News</p>",
+    "api_id": "wireframe---1-nav-item-3",
+    "variants": {
+      "de": {
+        "text": "Nachrichten",
+        "rich_text": "<p>Nachrichten</p>"
+      }
+    }
+  },
+  "wireframe---1-nav-item-4": {
+    "text": "Service",
+    "rich_text": "<p>Service</p>",
+    "api_id": "wireframe---1-nav-item-4",
+    "variants": {
+      "de": {
+        "text": "Dienstleistung",
+        "rich_text": "<p>Dienstleistung</p>"
+      }
+    }
+  },
+  "wireframe---1-start-now": {
+    "text": "Start Now",
+    "rich_text": "<p>Start Now</p>",
+    "api_id": "wireframe---1-start-now",
+    "variants": {
+      "de": {
+        "text": "Jetzt anfangen",
+        "rich_text": "<p>Jetzt anfangen</p>"
+      }
+    }
+  },
+  "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil": {
+    "text": "Automate your workflows\nQuadruple your team Productiviies",
+    "rich_text": "<p><strong>Automate</strong> your workflows</p><p>Quadruple your team Productiviies</p>",
+    "api_id": "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil",
+    "variants": {
+      "de": {
+        "text": "Automatisieren Sie Ihre Arbeitsabläufe\nVervierfachen Sie die Produktivität Ihres \nTeams ",
+        "rich_text": "<p>Automatisieren Sie Ihre Arbeitsabläufe</p><p>Vervierfachen Sie die Produktivität Ihres </p><p>Teams </p>"
+      }
+    }
+  },
+  "wireframe---1-aasdasdasdasdasdasdasd": {
+    "text": "We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.",
+    "rich_text": "<p>We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.</p>",
+    "api_id": "wireframe---1-aasdasdasdasdasdasdasd",
+    "variants": {
+      "de": {
+        "text": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
+        "rich_text": "<p>Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.</p>"
+      }
+    }
+  },
+  "wireframe---1-start-now-1": {
+    "text": "Start Now",
+    "rich_text": "<p>Start Now</p>",
+    "api_id": "wireframe---1-start-now-1",
+    "component_api_id": "button",
+    "variants": {
+      "de": {
+        "text": "Jetzt anfangen",
+        "rich_text": "<p>Jetzt anfangen</p>"
+      }
+    }
+  },
+  "wireframe---1-key-strongbenefitsstrong": {
+    "text": "Let us help you solve your mobile SAP challenges.",
+    "rich_text": "<p>Let us help you solve your mobile SAP challenges.</p>",
+    "api_id": "wireframe---1-key-strongbenefitsstrong",
+    "variants": {
+      "de": {
+        "text": "Lassen Sie uns Ihnen helfen, Ihre mobilen SAP-Herausforderungen zu lösen.",
+        "rich_text": "<p>Lassen Sie uns Ihnen helfen, Ihre mobilen SAP-Herausforderungen zu lösen.</p>"
+      }
+    }
+  },
+  "wireframe---1-kami-sangat-ahli-membangun-sistem-keren": {
+    "text": "Our expertise lies in developing customized mobile SAP solutions that seamlessly integrate with your existing SAP systems",
+    "rich_text": "<p>Our expertise lies in developing customized mobile SAP solutions that seamlessly integrate with your existing SAP systems</p>",
+    "api_id": "wireframe---1-kami-sangat-ahli-membangun-sistem-keren",
+    "variants": {
+      "de": {
+        "text": "Unsere Expertise liegt in der Entwicklung maßgeschneiderter mobiler SAP-Lösungen, die sich nahtlos in Ihre bestehenden SAP-Systeme integrieren.",
+        "rich_text": "<p>Unsere Expertise liegt in der Entwicklung maßgeschneiderter mobiler SAP-Lösungen, die sich nahtlos in Ihre bestehenden SAP-Systeme integrieren.</p>"
+      }
+    }
+  },
+  "wireframe---1-tailored-solutions": {
+    "text": "Tailored Solutions:",
+    "rich_text": "<p>Tailored Solutions:</p>",
+    "api_id": "wireframe---1-tailored-solutions",
+    "variants": {
+      "de": {
+        "text": "maßgeschneiderte Lösung",
+        "rich_text": "<p>maßgeschneiderte Lösung</p>"
+      }
+    }
+  },
+  "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt": {
+    "text": "We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.",
+    "rich_text": "<p>We offer tailored mobile SAP software that optimizes operations, streamlines workflows, and maximizes profitability for storage facility businesses.</p>",
+    "api_id": "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt",
+    "variants": {
+      "de": {
+        "text": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
+        "rich_text": "<p>Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.</p>"
+      }
+    }
+  },
+  "wireframe---1-enhanced-efficiency": {
+    "text": "Enhanced Efficiency:",
+    "rich_text": "<p>Enhanced Efficiency:</p>",
+    "api_id": "wireframe---1-enhanced-efficiency",
+    "variants": {
+      "de": {
+        "text": "Verbesserte Effizienz:",
+        "rich_text": "<p>Verbesserte Effizienz:</p>"
+      }
+    }
+  },
+  "wireframe---1-streamline-workflows-optimize-resources-reduce": {
+    "text": "Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.",
+    "rich_text": "<p>Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.</p>",
+    "api_id": "wireframe---1-streamline-workflows-optimize-resources-reduce",
+    "variants": {
+      "de": {
+        "text": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
+        "rich_text": "<p>Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.</p>"
+      }
+    }
+  },
+  "wireframe---1-seamless-integration": {
+    "text": "Seamless Integration",
+    "rich_text": "<p>Seamless Integration</p>",
+    "api_id": "wireframe---1-seamless-integration",
+    "variants": {
+      "de": {
+        "text": "Nahtlose Integration",
+        "rich_text": "<p>Nahtlose Integration</p>"
+      }
+    }
+  },
+  "wireframe---1-streamline-workflows-optimize-resources-reduce-1": {
+    "text": "Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.",
+    "rich_text": "<p>Streamline workflows, optimize resources, reduce costs, and improve productivity with our mobile SAP software.</p>",
+    "api_id": "wireframe---1-streamline-workflows-optimize-resources-reduce-1",
+    "variants": {
+      "de": {
+        "text": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
+        "rich_text": "<p>Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.</p>"
+      }
+    }
+  },
+  "wireframe---1-tailored-solutions-1": {
+    "text": "Tailored Solutions:",
+    "rich_text": "<p>Tailored Solutions:</p>",
+    "api_id": "wireframe---1-tailored-solutions-1",
+    "variants": {
+      "de": {
+        "text": "zugeschnittene Lösung",
+        "rich_text": "<p>zugeschnittene Lösung</p>"
+      }
+    }
+  },
+  "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor": {
+    "text": "Barcode scanning, RFID tracking, real-time reporting, and analytics are among the comprehensive features we offer to optimize your inventory management, order fulfillment, and shipping processes.",
+    "rich_text": "<p>Barcode scanning, RFID tracking, real-time reporting, and analytics are among the comprehensive features we offer to optimize your inventory management, order fulfillment, and shipping processes.</p>",
+    "api_id": "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor",
+    "variants": {
+      "de": {
+        "text": "Barcode-Scanning, RFID-Tracking, Echtzeitberichte und Analysen gehören zu den umfassenden Funktionen, die wir zur Optimierung Ihrer Bestandsverwaltung, Auftragsabwicklung und Versandprozesse anbieten.",
+        "rich_text": "<p>Barcode-Scanning, RFID-Tracking, Echtzeitberichte und Analysen gehören zu den umfassenden Funktionen, die wir zur Optimierung Ihrer Bestandsverwaltung, Auftragsabwicklung und Versandprozesse anbieten.</p>"
+      }
+    }
+  },
+  "wireframe---1-dedicated-support": {
+    "text": "Dedicated Support:",
+    "rich_text": "<p>Dedicated Support:</p>",
+    "api_id": "wireframe---1-dedicated-support",
+    "variants": {
+      "de": {
+        "text": "Engagierte Unterstützung:",
+        "rich_text": "<p>Engagierte Unterstützung:</p>"
+      }
+    }
+  },
+  "wireframe---1-our-dedicated-support-team-is-always-ready-to-": {
+    "text": "Our dedicated support team is always ready to assist you, providing technical support, training, and guidance for maximizing the potential of our mobile SAP solutions",
+    "rich_text": "<p>Our dedicated support team is always ready to assist you, providing technical support, training, and guidance for maximizing the potential of our mobile SAP solutions</p>",
+    "api_id": "wireframe---1-our-dedicated-support-team-is-always-ready-to-",
+    "variants": {
+      "de": {
+        "text": "Unser engagiertes Support-Team steht Ihnen jederzeit mit technischem Support, Schulungen und Anleitungen zur Seite, damit Sie das Potenzial unserer mobilen SAP-Lösungen voll ausschöpfen können.",
+        "rich_text": "<p>Unser engagiertes Support-Team steht Ihnen jederzeit mit technischem Support, Schulungen und Anleitungen zur Seite, damit Sie das Potenzial unserer mobilen SAP-Lösungen voll ausschöpfen können.</p>"
+      }
+    }
+  },
+  "wireframe---1-transform-your-storage-facility-operations-wit": {
+    "text": "Transform your storage facility operations with our state-of-the-art mobile SAP solutions.",
+    "rich_text": "<p>Transform your storage facility operations with our state-of-the-art mobile SAP solutions.</p>",
+    "api_id": "wireframe---1-transform-your-storage-facility-operations-wit",
+    "variants": {
+      "de": {
+        "text": "Verändern Sie die Abläufe in Ihrem Lager mit unseren modernen mobilen SAP-Lösungen.",
+        "rich_text": "<p>Verändern Sie die Abläufe in Ihrem Lager mit unseren modernen mobilen SAP-Lösungen.</p>"
+      }
+    }
+  },
+  "wireframe---1-contact-us-today-to-schedule-a-consultation-an": {
+    "text": "Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.",
+    "rich_text": "<p>Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.</p>",
+    "api_id": "wireframe---1-contact-us-today-to-schedule-a-consultation-an",
+    "variants": {
+      "de": {
+        "text": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
+        "rich_text": "<p>Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.</p>"
+      }
+    }
+  },
+  "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1": {
+    "text": "Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.",
+    "rich_text": "<p>Contact us today to schedule a consultation and discover how our software can revolutionize your business, enabling increased efficiency, profitability, and customer satisfaction.</p>",
+    "api_id": "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1",
+    "variants": {
+      "de": {
+        "text": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
+        "rich_text": "<p>Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.</p>"
+      }
+    }
+  },
+  "home-commsult": {
+    "text": "Commsulta",
+    "rich_text": "<p>Commsulta</p>",
+    "api_id": "home-commsult"
+  },
+  "home-1901-thornridge-cir-shiloh-hawaii-81063": {
+    "text": "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+    "rich_text": "<p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>",
+    "api_id": "home-1901-thornridge-cir-shiloh-hawaii-81063"
+  },
+  "home-about-us": {
+    "text": "About Us",
+    "rich_text": "<p>About Us</p>",
+    "api_id": "home-about-us",
+    "variants": {
+      "de": {
+        "text": "über uns",
+        "rich_text": "<p>über uns</p>"
+      }
+    }
+  },
+  "home-solution": {
+    "text": "Solution",
+    "rich_text": "<p>Solution</p>",
+    "api_id": "home-solution",
+    "variants": {
+      "de": {
+        "text": "Lösung",
+        "rich_text": "<p>Lösung</p>"
+      }
+    }
+  },
+  "home-pricing": {
+    "text": "Pricing",
+    "rich_text": "<p>Pricing</p>",
+    "api_id": "home-pricing",
+    "variants": {
+      "de": {
+        "text": "Preisgestaltung",
+        "rich_text": "<p>Preisgestaltung</p>"
+      }
+    }
+  },
+  "home-news": {
+    "text": "News",
+    "rich_text": "<p>News</p>",
+    "api_id": "home-news",
+    "variants": {
+      "de": {
+        "text": "Nachrichten",
+        "rich_text": "<p>Nachrichten</p>"
+      }
+    }
+  },
+  "home-service": {
+    "text": "Service",
+    "rich_text": "<p>Service</p>",
+    "api_id": "home-service",
+    "variants": {
+      "de": {
+        "text": "Dienstleistung",
+        "rich_text": "<p>Dienstleistung</p>"
+      }
+    }
+  },
+  "home-lorem-ipsum-dolor-sit-amet-consectetur-augue-orci-amet-": {
+    "text": "Tackle your company's mobile SAP solution problem with Commsulta.",
+    "rich_text": "<p>Tackle your company&apos;s mobile SAP solution problem with Commsulta.</p>",
+    "api_id": "home-lorem-ipsum-dolor-sit-amet-consectetur-augue-orci-amet-",
+    "variants": {
+      "de": {
+        "text": "Lösen Sie das Problem der mobilen SAP-Lösung in Ihrem Unternehmen mit Commsulta.",
+        "rich_text": "<p>Lösen Sie das Problem der mobilen SAP-Lösung in Ihrem Unternehmen mit Commsulta.</p>"
+      }
+    }
+  },
+  "home-all-rights-reserved-commsulta-2023": {
+    "text": "@All Rights Reserved : Commsulta 2023",
+    "rich_text": "<p>@All Rights Reserved : Commsulta 2023</p>",
+    "api_id": "home-all-rights-reserved-commsulta-2023",
+    "variants": {
+      "de": {
+        "text": "@Alle Rechte vorbehalten : Commsulta 2023",
+        "rich_text": "<p>@Alle Rechte vorbehalten : Commsulta 2023</p>"
+      }
+    }
+  }
 }
