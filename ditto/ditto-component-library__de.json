@@ -1,9 +1,3 @@
 {
-  "button": {
-    "name": "Button",
-    "text": "Jetzt anfangen",
-    "rich_text": "<p>Jetzt anfangen</p>",
-    "status": "NONE",
-    "folder": null
-  }
+  "button": "Jetzt anfangen"
 }

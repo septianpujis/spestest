@@ -1,0 +1,49 @@
+.cs-button-play {
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  position: relative;
+  display: inline-block;
+  min-width: 130px;
+  height: auto;
+  padding: 13px 16px 13px 58px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  background-image: linear-gradient(270deg, #fff 0%, #fff 100%);
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  -o-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  transition: all 0.2s ease-in-out, background-size 0.3s ease;
+}
+.cs-button-play:hover {
+  color: #008cba;
+  background-size: 100% 100%;
+}
+
+.cs-button-play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 16px;
+  z-index: 1;
+  background-image: url(../../public/images/icon/icon-play-white.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  -webkit-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  -o-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  transition: all 0.2s ease-in-out, background-size 0.3s ease;
+}
+.cs-button-play:hover::after {
+  background-image: url(../../public/images/icon/icon-play-blue.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .cs-button-play {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

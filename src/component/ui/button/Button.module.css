@@ -1,0 +1,32 @@
+.cs-button {
+  border: 2px solid #ffffff;
+  background-image: linear-gradient(270deg, #fff 0%, #fff 100%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  cursor: pointer;
+  color: #ffffff;
+  display: -moz-inline-stack;
+  display: inline-block;
+  min-width: 160px;
+  height: 44px;
+  padding: 10px 40px;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  -webkit-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  -o-transition: all 0.2s ease-in-out, background-size 0.3s ease;
+  transition: all 0.2s ease-in-out, background-size 0.3s ease;
+}
+.cs-button:hover {
+  color: #0077b6;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 767px) {
+  .cs-button {
+    padding: 12px 24px;
+  }
+}

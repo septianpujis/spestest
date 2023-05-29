@@ -1,158 +1,33 @@
 {
-  "wireframe---1-nav-item": {
-    "text": "über uns",
-    "rich_text": "<p>über uns</p>",
-    "api_id": "wireframe---1-nav-item"
-  },
-  "wireframe---1-nav-item-1": {
-    "text": "Lösung",
-    "rich_text": "<p>Lösung</p>",
-    "api_id": "wireframe---1-nav-item-1"
-  },
-  "wireframe---1-nav-item-2": {
-    "text": "Preisgestaltung",
-    "rich_text": "<p>Preisgestaltung</p>",
-    "api_id": "wireframe---1-nav-item-2"
-  },
-  "wireframe---1-nav-item-3": {
-    "text": "Nachrichten",
-    "rich_text": "<p>Nachrichten</p>",
-    "api_id": "wireframe---1-nav-item-3"
-  },
-  "wireframe---1-nav-item-4": {
-    "text": "Dienstleistung",
-    "rich_text": "<p>Dienstleistung</p>",
-    "api_id": "wireframe---1-nav-item-4"
-  },
-  "wireframe---1-start-now": {
-    "text": "Jetzt anfangen",
-    "rich_text": "<p>Jetzt anfangen</p>",
-    "api_id": "wireframe---1-start-now"
-  },
-  "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil": {
-    "text": "Automatisieren Sie Ihre Arbeitsabläufe\nVervierfachen Sie die Produktivität Ihres \nTeams ",
-    "rich_text": "<p>Automatisieren Sie Ihre Arbeitsabläufe</p><p>Vervierfachen Sie die Produktivität Ihres </p><p>Teams </p>",
-    "api_id": "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil"
-  },
-  "wireframe---1-aasdasdasdasdasdasdasd": {
-    "text": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
-    "rich_text": "<p>Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.</p>",
-    "api_id": "wireframe---1-aasdasdasdasdasdasdasd"
-  },
-  "wireframe---1-start-now-1": {
-    "text": "Jetzt anfangen",
-    "rich_text": "<p>Jetzt anfangen</p>",
-    "api_id": "wireframe---1-start-now-1",
-    "component_api_id": "button"
-  },
-  "wireframe---1-key-strongbenefitsstrong": {
-    "text": "Lassen Sie uns Ihnen helfen, Ihre mobilen SAP-Herausforderungen zu lösen.",
-    "rich_text": "<p>Lassen Sie uns Ihnen helfen, Ihre mobilen SAP-Herausforderungen zu lösen.</p>",
-    "api_id": "wireframe---1-key-strongbenefitsstrong"
-  },
-  "wireframe---1-kami-sangat-ahli-membangun-sistem-keren": {
-    "text": "Unsere Expertise liegt in der Entwicklung maßgeschneiderter mobiler SAP-Lösungen, die sich nahtlos in Ihre bestehenden SAP-Systeme integrieren.",
-    "rich_text": "<p>Unsere Expertise liegt in der Entwicklung maßgeschneiderter mobiler SAP-Lösungen, die sich nahtlos in Ihre bestehenden SAP-Systeme integrieren.</p>",
-    "api_id": "wireframe---1-kami-sangat-ahli-membangun-sistem-keren"
-  },
-  "wireframe---1-tailored-solutions": {
-    "text": "maßgeschneiderte Lösung",
-    "rich_text": "<p>maßgeschneiderte Lösung</p>",
-    "api_id": "wireframe---1-tailored-solutions"
-  },
-  "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt": {
-    "text": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
-    "rich_text": "<p>Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.</p>",
-    "api_id": "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt"
-  },
-  "wireframe---1-enhanced-efficiency": {
-    "text": "Verbesserte Effizienz:",
-    "rich_text": "<p>Verbesserte Effizienz:</p>",
-    "api_id": "wireframe---1-enhanced-efficiency"
-  },
-  "wireframe---1-streamline-workflows-optimize-resources-reduce": {
-    "text": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
-    "rich_text": "<p>Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.</p>",
-    "api_id": "wireframe---1-streamline-workflows-optimize-resources-reduce"
-  },
-  "wireframe---1-seamless-integration": {
-    "text": "Nahtlose Integration",
-    "rich_text": "<p>Nahtlose Integration</p>",
-    "api_id": "wireframe---1-seamless-integration"
-  },
-  "wireframe---1-streamline-workflows-optimize-resources-reduce-1": {
-    "text": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
-    "rich_text": "<p>Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.</p>",
-    "api_id": "wireframe---1-streamline-workflows-optimize-resources-reduce-1"
-  },
-  "wireframe---1-tailored-solutions-1": {
-    "text": "zugeschnittene Lösung",
-    "rich_text": "<p>zugeschnittene Lösung</p>",
-    "api_id": "wireframe---1-tailored-solutions-1"
-  },
-  "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor": {
-    "text": "Barcode-Scanning, RFID-Tracking, Echtzeitberichte und Analysen gehören zu den umfassenden Funktionen, die wir zur Optimierung Ihrer Bestandsverwaltung, Auftragsabwicklung und Versandprozesse anbieten.",
-    "rich_text": "<p>Barcode-Scanning, RFID-Tracking, Echtzeitberichte und Analysen gehören zu den umfassenden Funktionen, die wir zur Optimierung Ihrer Bestandsverwaltung, Auftragsabwicklung und Versandprozesse anbieten.</p>",
-    "api_id": "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor"
-  },
-  "wireframe---1-dedicated-support": {
-    "text": "Engagierte Unterstützung:",
-    "rich_text": "<p>Engagierte Unterstützung:</p>",
-    "api_id": "wireframe---1-dedicated-support"
-  },
-  "wireframe---1-our-dedicated-support-team-is-always-ready-to-": {
-    "text": "Unser engagiertes Support-Team steht Ihnen jederzeit mit technischem Support, Schulungen und Anleitungen zur Seite, damit Sie das Potenzial unserer mobilen SAP-Lösungen voll ausschöpfen können.",
-    "rich_text": "<p>Unser engagiertes Support-Team steht Ihnen jederzeit mit technischem Support, Schulungen und Anleitungen zur Seite, damit Sie das Potenzial unserer mobilen SAP-Lösungen voll ausschöpfen können.</p>",
-    "api_id": "wireframe---1-our-dedicated-support-team-is-always-ready-to-"
-  },
-  "wireframe---1-transform-your-storage-facility-operations-wit": {
-    "text": "Verändern Sie die Abläufe in Ihrem Lager mit unseren modernen mobilen SAP-Lösungen.",
-    "rich_text": "<p>Verändern Sie die Abläufe in Ihrem Lager mit unseren modernen mobilen SAP-Lösungen.</p>",
-    "api_id": "wireframe---1-transform-your-storage-facility-operations-wit"
-  },
-  "wireframe---1-contact-us-today-to-schedule-a-consultation-an": {
-    "text": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
-    "rich_text": "<p>Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.</p>",
-    "api_id": "wireframe---1-contact-us-today-to-schedule-a-consultation-an"
-  },
-  "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1": {
-    "text": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
-    "rich_text": "<p>Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.</p>",
-    "api_id": "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1"
-  },
-  "home-about-us": {
-    "text": "über uns",
-    "rich_text": "<p>über uns</p>",
-    "api_id": "home-about-us"
-  },
-  "home-solution": {
-    "text": "Lösung",
-    "rich_text": "<p>Lösung</p>",
-    "api_id": "home-solution"
-  },
-  "home-pricing": {
-    "text": "Preisgestaltung",
-    "rich_text": "<p>Preisgestaltung</p>",
-    "api_id": "home-pricing"
-  },
-  "home-news": {
-    "text": "Nachrichten",
-    "rich_text": "<p>Nachrichten</p>",
-    "api_id": "home-news"
-  },
-  "home-service": {
-    "text": "Dienstleistung",
-    "rich_text": "<p>Dienstleistung</p>",
-    "api_id": "home-service"
-  },
-  "home-lorem-ipsum-dolor-sit-amet-consectetur-augue-orci-amet-": {
-    "text": "Lösen Sie das Problem der mobilen SAP-Lösung in Ihrem Unternehmen mit Commsulta.",
-    "rich_text": "<p>Lösen Sie das Problem der mobilen SAP-Lösung in Ihrem Unternehmen mit Commsulta.</p>",
-    "api_id": "home-lorem-ipsum-dolor-sit-amet-consectetur-augue-orci-amet-"
-  },
-  "home-all-rights-reserved-commsulta-2023": {
-    "text": "@Alle Rechte vorbehalten : Commsulta 2023",
-    "rich_text": "<p>@Alle Rechte vorbehalten : Commsulta 2023</p>",
-    "api_id": "home-all-rights-reserved-commsulta-2023"
-  }
+  "wireframe---1-nav-item": "über uns",
+  "wireframe---1-nav-item-1": "Lösung",
+  "wireframe---1-nav-item-2": "Preisgestaltung",
+  "wireframe---1-nav-item-3": "Nachrichten",
+  "wireframe---1-nav-item-4": "Dienstleistung",
+  "wireframe---1-start-now": "Jetzt anfangen",
+  "wireframe---1-otomatiskan-kerjaan-anda-lipat-gandakan-hasil": "Automatisieren Sie Ihre Arbeitsabläufe\nVervierfachen Sie die Produktivität Ihres \nTeams ",
+  "wireframe---1-aasdasdasdasdasdasdasd": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
+  "wireframe---1-start-now-1": "Jetzt anfangen",
+  "wireframe---1-key-strongbenefitsstrong": "Lassen Sie uns Ihnen helfen, Ihre mobilen SAP-Herausforderungen zu lösen.",
+  "wireframe---1-kami-sangat-ahli-membangun-sistem-keren": "Unsere Expertise liegt in der Entwicklung maßgeschneiderter mobiler SAP-Lösungen, die sich nahtlos in Ihre bestehenden SAP-Systeme integrieren.",
+  "wireframe---1-tailored-solutions": "maßgeschneiderte Lösung",
+  "wireframe---1-we-offer-tailored-mobile-sap-software-that-opt": "Wir bieten maßgeschneiderte mobile SAP-Software, die den Betrieb optimiert, Arbeitsabläufe rationalisiert und die Rentabilität von Lagerbetrieben maximiert.",
+  "wireframe---1-enhanced-efficiency": "Verbesserte Effizienz:",
+  "wireframe---1-streamline-workflows-optimize-resources-reduce": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
+  "wireframe---1-seamless-integration": "Nahtlose Integration",
+  "wireframe---1-streamline-workflows-optimize-resources-reduce-1": "Rationalisieren Sie Arbeitsabläufe, optimieren Sie Ressourcen, senken Sie Kosten und steigern Sie die Produktivität mit unserer mobilen SAP-Software.",
+  "wireframe---1-tailored-solutions-1": "zugeschnittene Lösung",
+  "wireframe---1-barcode-scanning-rfid-tracking-real-time-repor": "Barcode-Scanning, RFID-Tracking, Echtzeitberichte und Analysen gehören zu den umfassenden Funktionen, die wir zur Optimierung Ihrer Bestandsverwaltung, Auftragsabwicklung und Versandprozesse anbieten.",
+  "wireframe---1-dedicated-support": "Engagierte Unterstützung:",
+  "wireframe---1-our-dedicated-support-team-is-always-ready-to-": "Unser engagiertes Support-Team steht Ihnen jederzeit mit technischem Support, Schulungen und Anleitungen zur Seite, damit Sie das Potenzial unserer mobilen SAP-Lösungen voll ausschöpfen können.",
+  "wireframe---1-transform-your-storage-facility-operations-wit": "Verändern Sie die Abläufe in Ihrem Lager mit unseren modernen mobilen SAP-Lösungen.",
+  "wireframe---1-contact-us-today-to-schedule-a-consultation-an": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
+  "wireframe---1-contact-us-today-to-schedule-a-consultation-an-1": "Setzen Sie sich noch heute mit uns in Verbindung, um einen Beratungstermin zu vereinbaren und herauszufinden, wie unsere Software Ihr Unternehmen revolutionieren und zu mehr Effizienz, Rentabilität und Kundenzufriedenheit führen kann.",
+  "home-about-us": "über uns",
+  "home-solution": "Lösung",
+  "home-pricing": "Preisgestaltung",
+  "home-news": "Nachrichten",
+  "home-service": "Dienstleistung",
+  "home-lorem-ipsum-dolor-sit-amet-consectetur-augue-orci-amet-": "Lösen Sie das Problem der mobilen SAP-Lösung in Ihrem Unternehmen mit Commsulta.",
+  "home-all-rights-reserved-commsulta-2023": "@Alle Rechte vorbehalten : Commsulta 2023"
 }

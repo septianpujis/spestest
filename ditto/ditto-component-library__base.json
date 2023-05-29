@@ -1,32 +1,5 @@
 {
-  "company-tagline.cta": {
-    "name": "Company Tagline/CTA",
-    "text": "Contact Us",
-    "rich_text": "<p>Contact Us</p>",
-    "status": "NONE",
-    "folder": null,
-    "tags": [
-      "HEADER",
-      "BUTTON"
-    ]
-  },
-  "company-tagline.de": {
-    "name": "Company Tagline/DE",
-    "text": "Die Spezialisten \r\nfür mobile Software in Unternehmensprozessen.",
-    "rich_text": "<p>Die Spezialisten  für mobile Software in Unternehmensprozessen.</p>",
-    "status": "NONE",
-    "folder": null
-  },
-  "button": {
-    "name": "Button",
-    "text": "Start Now",
-    "rich_text": "<p>Start Now</p>",
-    "status": "NONE",
-    "folder": null,
-    "variants": {
-      "de": {
-        "text": "Jetzt anfangen"
-      }
-    }
-  }
+  "company-tagline.cta": "Contact Us",
+  "company-tagline.de": "Die Spezialisten \r\nfür mobile Software in Unternehmensprozessen.",
+  "button": "Start Now"
 }

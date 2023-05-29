@@ -1,4 +1,5 @@
 "use client";
+import { ButtonNoArrow } from "@/component/ui/button/index.js";
 import { DittoProvider, Ditto } from "ditto-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -97,6 +98,13 @@ export default function Home() {
                 />
                 Start Now
               </button>
+              <br />
+              <br />
+              <br />
+              <ButtonNoArrow btnText={"huha"} clickEvent={"#"}/>
+              <br />
+              <br />
+              <br />
             </div>
             <div className="w-1/2">
               <Image
