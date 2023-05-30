@@ -1,10 +1,11 @@
 # Commsulta Project
+
 ## Project for research and try something new
+
+Program in Next JS & Deployed on Vercel.
+
 <hr />
-Program in Next JS & Deployed on Vercel
-
 Implemented Feature so far :
-
 <ul>
 <li>Specify App - Design Token tools</li>
 <li>Ditto - localization tools</li>
