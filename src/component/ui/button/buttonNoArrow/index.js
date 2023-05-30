@@ -13,7 +13,7 @@ const ButtonNoArrow = ({
         color === 1 ? classes["cs-blue"] : classes["cs-white"]
       } ${triggeredHover ? classes.hovered : ""} ${btnStyle}`}
       type={type}
-      onClick={clickEvent !== undefined ? clickEvent : undefined}
+      onClick={clickEvent !== undefined ? clickEvent : () => {}}
     >
       {btnText}
     </button>

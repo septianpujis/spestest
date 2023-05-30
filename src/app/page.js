@@ -101,7 +101,12 @@ export default function Home() {
               <br />
               <br />
               <br />
-              <ButtonNoArrow btnText={"huha"} clickEvent={"#"}/>
+              <ButtonNoArrow
+                btnText={"huha"}
+                clickEvent={() => {
+                  console.log("huha");
+                }}
+              />
               <br />
               <br />
               <br />
@@ -138,9 +143,7 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="title">
-                  Tailored Solutions:
-                </h4>
+                <h4 className="title">Tailored Solutions:</h4>
                 <p className="desc">
                   We offer tailored mobile SAP software that optimizes
                   operations, streamlines workflows, and maximizes profitability
@@ -156,9 +159,7 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="title">
-                  Enhanced Efficiency:
-                </h4>
+                <h4 className="title">Enhanced Efficiency:</h4>
                 <p className="desc">
                   Streamline workflows, optimize resources, reduce costs, and
                   improve productivity with our mobile SAP software.
@@ -173,9 +174,7 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="title">
-                  Seamless Integration
-                </h4>
+                <h4 className="title">Seamless Integration</h4>
                 <p className="desc">
                   Streamline workflows, optimize resources, reduce costs, and
                   improve productivity with our mobile SAP software.
@@ -190,9 +189,7 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="title">
-                  Tailored Solutions:
-                </h4>
+                <h4 className="title">Tailored Solutions:</h4>
                 <p className="desc">
                   Barcode scanning, RFID tracking, real-time reporting, and
                   analytics are among the comprehensive features we offer to
@@ -209,9 +206,7 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="title">
-                  Dedicated Support:
-                </h4>
+                <h4 className="title">Dedicated Support:</h4>
                 <p className="desc">
                   Our dedicated support team is always ready to assist you,
                   providing technical support, training, and guidance for
