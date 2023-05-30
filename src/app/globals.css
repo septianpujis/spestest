@@ -19,3 +19,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h4.title {
+  @apply font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4;
+}
+
+.desc {
+  @apply font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle;
+}

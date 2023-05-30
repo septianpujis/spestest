@@ -138,10 +138,10 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                <h4 className="title">
                   Tailored Solutions:
                 </h4>
-                <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                <p className="desc">
                   We offer tailored mobile SAP software that optimizes
                   operations, streamlines workflows, and maximizes profitability
                   for storage facility businesses.
@@ -156,10 +156,10 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                <h4 className="title">
                   Enhanced Efficiency:
                 </h4>
-                <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                <p className="desc">
                   Streamline workflows, optimize resources, reduce costs, and
                   improve productivity with our mobile SAP software.
                 </p>
@@ -173,10 +173,10 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                <h4 className="title">
                   Seamless Integration
                 </h4>
-                <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                <p className="desc">
                   Streamline workflows, optimize resources, reduce costs, and
                   improve productivity with our mobile SAP software.
                 </p>
@@ -190,10 +190,10 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                <h4 className="title">
                   Tailored Solutions:
                 </h4>
-                <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                <p className="desc">
                   Barcode scanning, RFID tracking, real-time reporting, and
                   analytics are among the comprehensive features we offer to
                   optimize your inventory management, order fulfillment, and
@@ -209,10 +209,10 @@ export default function Home() {
                   alt="icon"
                   className="mb-4"
                 />
-                <h4 className="font-desktop-h-4 text-desktop-h-4 leading-desktop-h-4 mb-4">
+                <h4 className="title">
                   Dedicated Support:
                 </h4>
-                <p className="font-desktop-subtitle text-desktop-subtitle leading-desktop-subtitle">
+                <p className="desc">
                   Our dedicated support team is always ready to assist you,
                   providing technical support, training, and guidance for
                   maximizing the potential of our mobile SAP solutions
